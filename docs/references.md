@@ -20,14 +20,3 @@
 9. NIST SP 800-207. *Zero Trust Architecture*.
 10. NIST SP 800-171. *Protecting Controlled Unclassified Information in Nonfederal
     Systems and Organizations*.
-
-## Связь со смежными подходами
-
-| Подход | Что PCS наследует | Отличие PCS |
-|---|---|---|
-| MAPE-K | Monitor, Analyze, Plan, Execute и Knowledge | Явные Authorize и Verify; объединение runtime и изменения продукта |
-| GitOps | Desired/observed state, reconciliation и drift detection | Model шире инфраструктурной конфигурации |
-| SRE/DevOps | Наблюдаемость, incident response, автоматизацию и release engineering | Единый агентный controller и путь до проверенного эффекта |
-| OODA | Observe, Orient, Decide и Act | Явные policy, авторизация, model и проверка результата |
-| Digital twin | Синхронизируемое представление объекта | Наличие механизмов решения, авторизации и воздействия |
-
